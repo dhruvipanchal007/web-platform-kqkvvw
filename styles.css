@@ -21,11 +21,12 @@ section{
 }
 
 #second-page{
+  max-height: 1000px;
   background-color: white;
   background-image: none;
   display: grid;
   grid-template-columns:1fr 1fr 1fr;
-  grid-template-rows: repeat(auto 1fr);
+  grid-template-rows: 500px 200px;
 }
 
 .main {
