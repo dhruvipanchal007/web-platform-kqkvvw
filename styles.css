@@ -21,12 +21,12 @@ section{
 }
 
 #second-page{
-  max-height: 1000px;
   background-color: white;
   background-image: none;
   display: grid;
-  grid-template-columns:1fr 1fr 1fr;
-  grid-template-rows: 500px 200px;
+  grid-template-columns:500px 500px 500px;
+  grid-column-gap: 20px;
+  row-gap: 20px;
 }
 
 .main {
@@ -56,4 +56,8 @@ section{
 }
 .items {
   color: rgb(138, 132, 132);
+}
+.img{
+  width: 500px;
+  height: 500px;
 }
